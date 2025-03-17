@@ -1,0 +1,483 @@
+body{
+
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+
+    display: flex;
+    
+}
+
+
+.sidebar{
+    position: fixed;
+
+    height: auto;
+    width: 245px;
+    border-right: 1px solid lightgray;
+    
+}
+
+
+
+.logo{
+    padding: 0 25px;
+    height: 110px;
+}
+
+.home-icon{
+
+    
+    
+    
+}
+
+.home{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 2px 25px;
+   
+    
+    
+    
+    
+}
+
+
+
+.search{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 2px 25px;
+    margin: 28px 0;
+   
+    
+    
+    
+    
+}
+
+
+.Threads{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 2px 25px;
+    
+    
+    
+    
+    
+}
+
+.more{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 2px 25px;
+    
+   
+    
+}
+
+
+
+.two{
+
+    margin: 78px 0;
+}
+
+.p1{
+
+    
+    
+    
+}
+
+
+.main-content{
+
+
+    margin: 40px auto;
+}
+
+.profile{
+
+    
+}
+
+
+.avatar{
+
+    width: 100px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+
+.firstline{
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.content{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile{
+
+    display: flex;
+   
+    gap: 90px;
+}
+
+
+.btns{
+
+    display: flex;
+    gap: 10px;
+}
+.follow-btn{
+    color: white;
+    background-color: rgb(13, 124, 220);
+    border: none;
+    padding: 8px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+
+
+.message-btn{
+
+    color: black;
+    background-color: #eee;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero{
+
+    display: flex;
+    margin: -50px auto;
+    padding-right: 110px;
+    width: 700px;
+    align-items: center;
+    gap: 90px;
+
+}
+
+
+.hero-img{
+
+    width: 110px;
+    border: 1px solid rgb(226, 224, 224);
+    padding: 20px;
+    border-radius: 50%;
+    
+    
+    
+}
+
+
+
+.cta{
+
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 16px 38px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.title{
+
+    font-size: 25px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
+.parent{
+
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 0;
+   
+}
+
+.google{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.follow{
+    color: white;
+    background-color: rgb(68, 151, 224);
+    border: none;
+    padding: 8px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+
+
+}
+
+
+.mssg{
+
+    color: black;
+    background-color: #eee;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+
+
+.newuser{
+
+    background-color: #eee;
+    border: none;
+    padding:8px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.second{
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+
+.fflex{
+
+    display: flex;
+   
+    
+}
+
+
+
+.sub{
+
+    font-size: 16px;
+    margin-bottom: 5px;
+    
+}
+
+.thread{
+    border: none;
+    border-radius: 40px;
+    padding: 4px 12px;
+    display: flex;
+    gap: 5px;
+    
+}
+
+
+.link{
+
+    text-decoration: none;
+    color: rgb(5, 63, 144);
+    font-size: 14px;
+}
+
+.p1{
+
+    color: rgb(94, 93, 93);
+    font-size: 14px;
+    
+}
+
+
+.blue{
+
+    background-color: blue;
+    border: 1px solid lightgray;
+
+}
+
+
+
+.status{
+
+    display: flex;
+    margin: 70px 35px;
+    gap: 45px;
+    
+}
+
+.bord{
+
+    border-bottom: 1px solid lightgray;
+    width: 950px;
+    margin: -30px 0;
+}
+.s1-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 18px;
+    
+    border: 1px solid lightgray;
+}
+
+.s2-img{
+    width: 50px;
+    height: 50px;
+    background-color: lightskyblue;
+    border-radius: 50%;
+    padding: 18px;
+    
+    border: 1px solid lightgray;
+}
+
+
+.s3-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 18px;
+    
+    border: 1px solid lightgray;
+}
+
+
+
+.status-text{
+
+    font-size: 12px;
+    text-align: center;
+    font-weight:500;
+}
+
+
+
+.middle-icons{
+
+
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 28px auto;
+    gap: 55px;
+   
+
+   
+}
+
+
+
+.search1{
+
+    display: flex;
+    align-items: center;
+    padding-right:15px ;
+    gap: 5px;
+    
+    
+   
+    
+    
+    
+    
+}
+
+
+.middle-text{
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+.middle-text1{
+
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+}
+
+
+
+
+.feed{
+
+    margin: -30px auto;
+
+}
+
+
+.feed-img{
+
+
+    width: 310px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+
+.mmain{
+
+
+    margin: 40px auto;
+    padding-left: 250px;
+}
